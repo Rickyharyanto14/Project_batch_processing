@@ -7,7 +7,7 @@ import pandas.io.sql as sqlio
 
 #connect to potsgresql
 try:
-  conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=RH2000")
+  conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=111111")
   print("Connection success")
 except:
   print("An exception occurred")

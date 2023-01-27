@@ -1,7 +1,7 @@
 import psycopg2
 
 #making connection with database
-conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=RH2000")
+conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=111111")
 cur  = conn.cursor()
 
 #declare the file path

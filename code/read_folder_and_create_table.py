@@ -15,5 +15,5 @@ for files in os.listdir(directory):
        df = pd.read_csv(file_path, sep=',') 
        if("email") in df:
            df['email'] =  df['email'].apply(lambda x: x.split('@')[0])
-       engine = create_engine('postgresql://postgres:RH2000@localhost:5432/postgres')
+       engine = create_engine('postgresql://postgres:111111@localhost:5432/postgres')
        df.to_sql(file_name,engine,if_exists='replace')
